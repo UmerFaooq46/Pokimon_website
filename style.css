@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc;
+}
+
+.header {
+    background-color: #000;
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo > img {
+    width: 150px;
+}
+
+.menu > li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.btns {
+    margin-left: auto;
+}
+
+.btns > button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+
+.btn-one {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+
+.btn-two {
+    background-color: #5e1b1e;
+    border: 1px solid #ed1c24;
+}
+
+.sild > img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+   
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro > .content > h2 {
+    margin: 0;
+    color: #000;
+    background-color: #ccc;
+}
+
+.card {
+    max-width: 400px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.card > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card > .container {
+    padding: 20px;
+    text-align: center;
+}
+
+h2, p {
+    color: #000;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #000;
+}
+
+.brand-btn-holds a {
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(219, 0, 0, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.imagess img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.franchise-home-box-content small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.logo-text-hold {
+    color: #007BFF;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lg-6,
+.col-md-6,
+.col-sm-12,
+.col-xs-12 {
+    flex: 0 0 48%;
+    box-sizing: border-box;
+}
+
+.franchise-home-box-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: left;
+}
+
+.logo-text-hold-second {
+    color: #007BFF;
+}
+
+.fa-map-marker-alt {
+    margin-right: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.arrow-one {
+    margin-left: 10px;
+}
+
+.small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.card {
+    max-width: 400px;
+    height: 300px;
+    border: 0; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.new-card-box-hold small {
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card02 {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+.brand-btn-holds {
+    margin-top: 10px;
+}
+
+.product-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+}
+.intro h2,
+.h1 h1 {
+    color: #FF0000; 
+}
+.small {
+    color: blue;
+    font-weight: bold;
+}
